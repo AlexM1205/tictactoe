@@ -75,7 +75,7 @@ function checkWin(currentClass) {
 
 function endGame(draw) {
     if (draw) {
-        winningMessageTextElement.innerText = 'Draw.. que mamada';
+        winningMessageTextElement.innerText = 'Draw... play again?';
     } else {
         winningMessageTextElement.innerText = `${isPlayer_O_Turn ? "O's" : "X's"} Wins and you lost!`;
     }
